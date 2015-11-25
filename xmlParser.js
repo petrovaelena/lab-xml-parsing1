@@ -16,6 +16,8 @@ function validator(input,type) {
             return true;
         }
         input.setAttribute('id', 'wrong');
+      //
+      value = "";
         return false;
     }
 }

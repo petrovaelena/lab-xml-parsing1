@@ -1,6 +1,4 @@
-
 var CELL_Number = 4;
-
 function validator(input,type) {
     var value = input.value;
     //onkeydown
@@ -51,11 +49,6 @@ function ReadInput() {
     }
 }
 
-
-
-
-
-
 function initializeType(str) {
     if (str.indexOf('String') > -1) {
         return 'String';
@@ -87,17 +80,10 @@ function getFieldType(type, value) {
     }
 }
 
-
-
-
-
 function CreateRow() {
 
     var table = document.getElementById('id_Table');
-    
-    var newRow = table.insertRow(9);
-  
-     
+    var newRow = table.insertRow(1);
     for (var i = 0; i < CELL_Number; i++) {
         var newColumn = newRow.insertCell(i);
         newColumn.innerHTML = "<input type=\"text\" value=\"\" />";
@@ -107,9 +93,6 @@ function CreateRow() {
     newColumn = newRow.insertCell(CELL_Number + 1);
     newColumn.innerHTML = " <input type=\"image\" src=\"/RedButton.jpg\" width=\"30\" onclick=\"deleteRow(this)\">"
 }
-
-
-
 
 function SelectChanging(select) {
     var table = document.getElementById('id_Table');
@@ -125,22 +108,13 @@ function SelectChanging(select) {
         case 'Boolean':
             value = "False";
     }
-
     cell.innerHTML = getFieldType(select.value, value);
 }
-
-
-
-
-
 
 function deleteRow(r) {
     var i = r.parentNode.parentNode.rowIndex;
     document.getElementById('id_Table').deleteRow(i);
 }
-
-
-
 
 function download(name, typeOfFile) {
     var text = getOutputFile();
@@ -152,16 +126,9 @@ function download(name, typeOfFile) {
     link.setAttribute('download', name);
     link.style.display = 'none';
     document.body.appendChild(link);
-
     link.click();
-
     document.body.removeChild(link);
-
 }
-
-
-
-
 
 function getOutputFile() {
     var res = "<?xml version='1.0' encoding='utf-8' ?> \n" +
@@ -193,36 +160,24 @@ function getOutputFile() {
             type = "System.Boolean";
             console.log(allColumns[3].childNodes[0].value);
         }
-
-
-
         if (allColumns[3].childNodes[0].value == "on")
             res += "<Value>" + "True" + "</Value>\n";
         else {
             if (allColumns[3].childNodes[0].value == "off")
                 res += "<Value>" + "False" + "</Value>\n";
             else {
-
                 res += "<Value>" + allColumns[3].childNodes[0].value + "</Value>\n";
             }
         }
-
         if (type === 'System.Boolean') {
             console.log("Znachenie Bool")
             console.log(allColumns[3].childNodes[0].value);
-
         }
-
-
-
-
-        if ((isValueValid(allColumns[3].childNodes[0], type) === true) && (type === 'System.Boolean')) {
+    if ((isValueValid(allColumns[3].childNodes[0], type) === true) && (type === 'System.Boolean')) {
             allColumns[3].childNodes[0].setAttribute('id', 'complete');
             isBool = true;
         }
-
-
-        if ((isValueValid(allColumns[3].childNodes[0], type) === true)) {
+    if ((isValueValid(allColumns[3].childNodes[0], type) === true)) {
             switch (type) {
                 case 'System.String':
                     {
@@ -232,12 +187,9 @@ function getOutputFile() {
                     {
                         allColumns[3].childNodes[0].setAttribute('id', 'complete');
                     }
-
             }
-
         }
-
-        if ((isValueValid(allColumns[3].childNodes[0], type) === false))
+     if ((isValueValid(allColumns[3].childNodes[0], type) === false))
             switch (type) {
             case 'System.String':
                 {
@@ -268,18 +220,7 @@ function getOutputFile() {
         console.log(res);
         return res;
     }
-
 }
-
-
-
-
-
-
-
-
-
-
 
 function isValueValid(value, type) {
     switch (type) {
@@ -316,8 +257,6 @@ function isValueValid(value, type) {
     }
 }
 
-
-
 function checkFieldForNumber(field) {
     if (field.getAttribute('value').length < 2) {
         field.setAttribute("value", field.value);
@@ -330,17 +269,3 @@ function checkFieldForNumber(field) {
     }
     field.setAttribute("value", field.value);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -97,7 +97,7 @@ function CreateRow() {
     
     var newRow = table.insertRow(9);
   
-     }
+     
     for (var i = 0; i < CELL_Number; i++) {
         var newColumn = newRow.insertCell(i);
         newColumn.innerHTML = "<input type=\"text\" value=\"\" />";

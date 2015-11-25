@@ -66,3 +66,11 @@ body {
 	background: url(blue3.jpg);
 	color: white;
 }
+
+div {
+		background: #659DA4;
+		padding: 10px;
+		margin: auto auto; 
+		opacity: 0.9; 
+		width: 90%;
+	}

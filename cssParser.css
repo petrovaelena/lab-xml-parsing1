@@ -17,7 +17,7 @@ td
 
 #wrong {
   font-family: Arial;
-  color: White;
+  color: black;
   font-size: 15px;
   border-color: Red;
    background: none;
@@ -30,9 +30,10 @@ td
 
 #complete {
   font-family: Arial;
-  color: Yellow;
+  color: black;
   font-size: 15px;
-  background: Green;
+  border-color: green;
+  background: none;
    font-size: 13px;
    font-weight: 400;
   padding: 3px 8px 3px 8px;

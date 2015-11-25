@@ -18,6 +18,8 @@ function validator(input,type) {
         input.setAttribute('id', 'wrong');
       //
       value = "";
+      //
+      value.comment.focus();
         return false;
     }
 }

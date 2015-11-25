@@ -94,8 +94,9 @@ function getFieldType(type, value) {
 function CreateRow() {
 
     var table = document.getElementById('id_Table');
-     for (var i = 9; i < CELL_Number; i++) {
-    var newRow = table.insertRow(i);
+    
+    var newRow = table.insertRow(9);
+  
      }
     for (var i = 0; i < CELL_Number; i++) {
         var newColumn = newRow.insertCell(i);

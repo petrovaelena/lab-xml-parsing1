@@ -1,0 +1,68 @@
+#title{
+     color: Yellow;
+     margin: 15px;
+     font:normal normal 400 12pt normal Courier New, sans-serif;
+     background:#0000FF;
+}
+td 
+{
+     word-wrap: break-word; 
+}
+#parse:hover{
+  color:blue;
+    font-size: 10pt;
+	cursor: pointer;
+}
+
+
+#wrong {
+  font-family: Arial;
+  color: White;
+  font-size: 15px;
+  background: Red;
+   font-size: 13px;
+   font-weight: 400;
+  padding: 3px 8px 3px 8px;
+  text-decoration: none;
+}
+
+
+#complete {
+  font-family: Arial;
+  color: Yellow;
+  font-size: 15px;
+  background: Green;
+   font-size: 13px;
+   font-weight: 400;
+  padding: 3px 8px 3px 8px;
+  text-decoration: none;
+}
+
+#addButton:hover {
+ color:blue;
+    font-size: 10pt;
+	cursor: pointer;
+}
+
+input[type=button]  
+{
+  font-family:arial, monospace;
+  padding:3px 11px; 
+  border:9 none; 
+  cursor: default;
+  -webkit-border-radius: 5px;
+  border-radius: 60px;
+  background-color: silver;
+}
+
+#download:hover{
+  color:blue;
+    font-size: 10pt;
+	cursor: pointer;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+	background: url(blue3.jpg);
+	color: white;
+}

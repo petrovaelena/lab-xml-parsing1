@@ -95,7 +95,7 @@ function CreateRow() {
     var newColumn = newRow.insertCell(CELL_Number);
     newColumn.innerHTML = " <select id=\"SelType\" size=\"2\" onchange=\"SelectChanging( this )\" ><option>String</option><option>Int</option><option>Boolean</option></select>"
     newColumn = newRow.insertCell(CELL_Number + 1);
-    newColumn.innerHTML = " <input type=\"image\" src=\"/RedButton.jpg\" width=\"30\" onclick=\"deleteRow(this)\">"
+    newColumn.innerHTML = " <input type=\"button\" id=\"DeleteButton\" value=\" Delete \"  onclick=\"deleteRow(this)\">"
 }
 
 function SelectChanging(select) {

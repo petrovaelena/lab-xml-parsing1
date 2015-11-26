@@ -46,7 +46,7 @@ function ReadInput() {
             display += '<td>' + "<input type=\"text\" value=\"" + nameField + "\" />" + '</td>';
             display += '<td>' + "<input type=\"text\" value=\"" + descriptionField + "\" />" + '</td>';
             display += '<td>' + typeField + '</td>';
-            display += "<td><input type=\"image\" src=\"/RedButton.jpg\" width=\"30\" onclick=\"deleteRow(this)\"></td>";
+            display += "<td><input type=\"button\" id=\"DeleteButton\" onclick=\"deleteRow(this)\"></td>";
             display += '</tr>';
         }
         document.getElementById('id_Table').innerHTML = display;

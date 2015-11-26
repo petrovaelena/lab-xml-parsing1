@@ -93,7 +93,7 @@ function CreateRow() {
         newColumn.innerHTML = "<input type=\"text\" value=\"\" />";
     }
     var newColumn = newRow.insertCell(CELL_Number);
-    newColumn.innerHTML = " <select id=\"SelType\" size=\"2\" onchange=\"SelectChanging( this )\" ><option>String</option><option>Int</option><option>Boolean</option></select>"
+    newColumn.innerHTML = " <select id=\"SelType\" size=\"1\" onchange=\"SelectChanging( this )\" ><option>String</option><option>Int</option><option>Boolean</option></select>"
     newColumn = newRow.insertCell(CELL_Number + 1);
     newColumn.innerHTML = " <input type=\"button\" id=\"DeleteButton\" value=\" Delete \"  onclick=\"deleteRow(this)\">"
 }

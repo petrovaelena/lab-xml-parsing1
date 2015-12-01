@@ -264,10 +264,10 @@ function isValueValid(value, type) {
 
 function checkFieldForNumber(field) { 
     var index = field.selectionStart;
-//    if (field.getAttribute('value').length < 2) {
-    //    field.setAttribute("value", field.value);
+    if (field.getAttribute('value').length < 2) {
+       field.setAttribute("value", field.value);
     //   return;
-   // }
+    }
     //var regular = new RegExp("(^([+-]?)([1-9]+?)[0-9]*$)|^0$");
     var regular = new RegExp("^([+-]?)[0-9]+$");
     if (!regular.test(field.value)) {

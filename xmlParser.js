@@ -280,8 +280,8 @@ function checkFieldForNumber(field) {
    
   //  
     field.setAttribute("value", field.value);
-     this.selectionStart = index;
-this.selectionEnd = index-1;
+     field.value.selectionStart = index;
+    fieldvalue.selectionEnd = index-1;
     
     
     

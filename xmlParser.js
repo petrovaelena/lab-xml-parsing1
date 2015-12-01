@@ -276,9 +276,7 @@ function checkFieldForNumber(field) {
     if (!regular.test(field.value)) {
         
         field.value = field.getAttribute('value');
-        var index = field.selectionStart;
-         field.selectionStart = index;
-         field.selectionEnd = index-1;
+       
         return;
         
     }

@@ -274,9 +274,9 @@ function checkFieldForNumber(field) {
         field.value = field.getAttribute('value');
     //    return;
     }
-
+ field.setAttribute("value", field.value);
    alert(index);
     field.selectionStart = index;
             field.selectionEnd = index-1;
-               // field.setAttribute("value", field.value);
+               // 
 }

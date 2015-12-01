@@ -263,7 +263,7 @@ function isValueValid(value, type) {
 }
 
 function checkFieldForNumber(field) { 
-    var index = input.selectionStart;
+    var start = field.selectionStart;
         
    // if (field.getAttribute('value').length < 2) {
    //    field.setAttribute("value", field.value);
@@ -279,8 +279,8 @@ function checkFieldForNumber(field) {
    
   //  
     field.setAttribute("value", field.value);
-     field.selectionStart = index;
-field.selectionEnd = index-1;
+   //  field.selectionStart = index;
+//field.selectionEnd = index-1;
     
     
     

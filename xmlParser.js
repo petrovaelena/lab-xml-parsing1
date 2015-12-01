@@ -267,7 +267,8 @@ function checkFieldForNumber(field) {
     //    field.setAttribute("value", field.value);
     //   return;
    // }
-    var regular = new RegExp("(^([+-]?)([1-9]+?)[0-9]*$)|^0$");
+    //var regular = new RegExp("(^([+-]?)([1-9]+?)[0-9]*$)|^0$");
+    var regular = new RegExp("^([+-]?)[0-9]+$");
     if (!regular.test(field.value)) {
         field.value = field.getAttribute('value');
     //    return;

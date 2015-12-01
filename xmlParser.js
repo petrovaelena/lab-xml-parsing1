@@ -265,11 +265,11 @@ function isValueValid(value, type) {
 function checkFieldForNumber(field) { 
     
         
-    if (field.getAttribute('value').length < 2) {
-       field.setAttribute("value", field.value);
+   // if (field.getAttribute('value').length < 2) {
+   //    field.setAttribute("value", field.value);
       
-      return;
-    }
+  //   return;
+  //  }
     //var regular = new RegExp("(^([+-]?)([1-9]+?)[0-9]*$)|^0$");
     
     var regular = new RegExp("^([+-]?)[0-9]+$");
@@ -279,10 +279,10 @@ function checkFieldForNumber(field) {
         
         return;
     }
-    var index = field.selectionStart;
+  //  var index = field.selectionStart;
     field.setAttribute("value", field.value);
-    field.selectionStart = index;
-        field.selectionEnd = index-1;
+  //  field.selectionStart = index;
+  //      field.selectionEnd = index-1;
          
  
    //alert(index);

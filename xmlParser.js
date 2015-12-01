@@ -284,9 +284,9 @@ function checkFieldForNumber(field) {
   
   //  
     field.setAttribute("value", field.value);
-    var index = field.value.selectionStart;
-  field.value.selectionStart = index;
-      field.value.selectionEnd = index-1;
+    var index = value.selectionStart;
+  value.selectionStart = index;
+      value.selectionEnd = index-1;
          
  
    //alert(index);

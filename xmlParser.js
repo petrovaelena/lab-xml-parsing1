@@ -10,7 +10,8 @@ function validator(input,type) {
         input.setAttribute('id', 'complete');
 
     if (type === 'System.Int32') {
-        var Reg = new RegExp("(^([+-]?)([1-9]+?)[0-9]*)|^0$");
+       // var Reg = new RegExp("(^([+-]?)([1-9]+?)[0-9]*)|^0$");
+        var Reg = new RegExp("^([+-]?)[0-9]+$");
         if (Reg.test(value)) {
             input.setAttribute('id', 'complete')
             return true;

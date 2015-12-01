@@ -19,9 +19,7 @@ function validator(input,type) {
         input.setAttribute('id', 'wrong');
       
       value = "";
-      var index = input.selectionStart;
-       input.selectionStart = index;
-       input.selectionEnd = index-1;
+     
       value.comment.focus();
         return false;
     }
@@ -265,7 +263,7 @@ function isValueValid(value, type) {
 }
 
 function checkFieldForNumber(field) { 
-    
+    var index = field.selectionStart;
         
    // if (field.getAttribute('value').length < 2) {
    //    field.setAttribute("value", field.value);
@@ -281,13 +279,18 @@ function checkFieldForNumber(field) {
    
   //  
     field.setAttribute("value", field.value);
+     field.selectionStart = index;
+field.selectionEnd = index-1;
+    
+    
+    
     
     //if ('selectionStart' in field) {
        //         field.selectionStart = index;
          //       field.selectionEnd = index;
          //       field.focus ();
            // }
-    //var index = value.selectionStart;
+    //
 // value.selectionStart = index;
    //  value.selectionEnd = index-1;
 

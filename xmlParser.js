@@ -279,9 +279,15 @@ function checkFieldForNumber(field) {
    
   //  
     field.setAttribute("value", field.value);
-    var index = value.selectionStart;
- value.selectionStart = index;
-     value.selectionEnd = index-1;
+    
+    if ('selectionStart' in field) {
+                field.selectionStart = 1;
+                field.selectionEnd = 2;
+                field.focus ();
+            }
+    //var index = value.selectionStart;
+// value.selectionStart = index;
+   //  value.selectionEnd = index-1;
 
    //alert(index);
 }

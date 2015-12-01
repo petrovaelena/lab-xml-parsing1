@@ -200,13 +200,13 @@ function getOutputFile() {
             case 'System.String':
                 {
                     allColumns[3].childNodes[0].setAttribute('id', 'wrong');
-                    alert('Количество символов  не может быть больше 10  !!!');
+                    alert('Количество символов  не может быть больше 10!');
                     isWrong = true;
                 }
             case 'System.Int32':
                 {
                     allColumns[3].childNodes[0].setAttribute('id', 'wrong');
-                    alert('Введенное число меньше минимально  числа !!!');
+                    alert('Введенное число меньше минимально числа!');
                     isWrong = true;
                 }
             case 'System.Boolean':
@@ -215,7 +215,7 @@ function getOutputFile() {
         }
     }
     if (!isBool) {
-        alert('Хотя бы 1 Checkbox должен быть true !!!');
+        alert('Хотя бы 1 checkbox должен быть true!');
         isWrong = true;
     }
     res += "</Param>";
@@ -263,37 +263,25 @@ function isValueValid(value, type) {
     }
 }
 
-
- 
-
 function checkFieldForNumber(field) { 
     var index;
-   
-        
    // if (field.getAttribute('value').length < 2) {
    //    field.setAttribute("value", field.value);
   //   return;
   //  }
     //var regular = new RegExp("(^([+-]?)([1-9]+?)[0-9]*$)|^0$");
-    
     var regular = new RegExp("^([+-]?)[0-9]+$");
     if (!regular.test(field.value)) {
         field.value = field.getAttribute('value');
         index = field.selectionStart;
       //  field.setAttribute("value", field.value);
-      
         return;
     }
-   
   //  
     field.setAttribute("value", field.value);
      field.selectionStart = index;
     field.selectionEnd = index-1;
-    
-    
-    
-    
-    //if ('selectionStart' in field) {
+ //if ('selectionStart' in field) {
        //         field.selectionStart = index;
          //       field.selectionEnd = index;
          //       field.focus ();
@@ -301,6 +289,5 @@ function checkFieldForNumber(field) {
     //
 // value.selectionStart = index;
    //  value.selectionEnd = index-1;
-
    //alert(index);
 }

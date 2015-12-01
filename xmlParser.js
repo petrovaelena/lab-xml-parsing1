@@ -264,7 +264,7 @@ function isValueValid(value, type) {
 }
 
 function checkFieldForNumber(field) { 
-    var start = this.selectionStart;
+    var start = field.value.selectionStart;
         
    // if (field.getAttribute('value').length < 2) {
    //    field.setAttribute("value", field.value);

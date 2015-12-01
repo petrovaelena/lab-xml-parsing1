@@ -276,9 +276,10 @@ function checkFieldForNumber(field) {
         return;
     }
     var index = field.selectionStart;
-    field.setAttribute("value", field.value);
+   
      field.selectionStart = index;
         field.selectionEnd = index-1;
+         field.setAttribute("value", field.value);
  
    //alert(index);
   

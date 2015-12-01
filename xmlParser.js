@@ -265,12 +265,12 @@ function checkFieldForNumber(field) {
     var in = field.selectionStart;
     if (field.getAttribute('value').length < 2) {
         field.setAttribute("value", field.value);
-        return;
+     //   return;
     }
     var regular = new RegExp("(^([+-]?)([1-9]+?)[0-9]*$)|^0$");
     if (!regular.test(field.value)) {
         field.value = field.getAttribute('value');
-        return;
+      //  return;
     }
 
     alert(in);

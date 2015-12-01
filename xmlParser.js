@@ -276,9 +276,10 @@ function checkFieldForNumber(field) {
     if (!regular.test(field.value)) {
         field.value = field.getAttribute('value');
         field.setAttribute("value", field.value);
-       // return;
+        var index = field.selectionStart;
+        return;
     }
-   var index = field.selectionStart;
+   
   //  
     //field.setAttribute("value", field.value);
      field.selectionStart = index;

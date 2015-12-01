@@ -17,9 +17,11 @@ function validator(input,type) {
             return true;
         }
         input.setAttribute('id', 'wrong');
-      //
+      
       value = "";
-      //
+      var index = input.selectionStart;
+       input.selectionStart = index;
+       input.selectionEnd = index-1;
       value.comment.focus();
         return false;
     }
@@ -280,11 +282,11 @@ function checkFieldForNumber(field) {
   //  
     field.setAttribute("value", field.value);
     
-    if ('selectionStart' in field) {
-                field.selectionStart = 1;
-                field.selectionEnd = 2;
-                field.focus ();
-            }
+    //if ('selectionStart' in field) {
+       //         field.selectionStart = index;
+         //       field.selectionEnd = index;
+         //       field.focus ();
+           // }
     //var index = value.selectionStart;
 // value.selectionStart = index;
    //  value.selectionEnd = index-1;

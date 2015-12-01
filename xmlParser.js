@@ -1,7 +1,7 @@
 var CELL_Number = 4;
 function validator(input,type) {
     var value = input.value;
-    var start = input.selectionStart;
+    var index = input.selectionStart;
      input.selectionStart = index;
     input.selectionEnd = index-1;
     //onkeydown

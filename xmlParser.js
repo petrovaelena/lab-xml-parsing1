@@ -18,9 +18,9 @@ function validator(input,type) {
             return true;
         }
         input.setAttribute('id', 'wrong');
-      //!---
-      //   value = "";
-     //!---
+      
+         value = "";
+     
       value.comment.focus();
         return false;
     }

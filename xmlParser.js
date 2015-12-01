@@ -1,9 +1,7 @@
 var CELL_Number = 4;
 function validator(input,type) {
     var value = input.value;
-    var index = input.selectionStart;
-     input.selectionStart = index;
-    input.selectionEnd = index-1;
+    
     //onkeydown
     if (isValueValid(input, type) === false) {
         input.setAttribute('id', 'wrong');
@@ -266,7 +264,7 @@ function isValueValid(value, type) {
 }
 
 function checkFieldForNumber(field) { 
-  //  var start = field.selectionStart;
+    var start = this.selectionStart;
         
    // if (field.getAttribute('value').length < 2) {
    //    field.setAttribute("value", field.value);

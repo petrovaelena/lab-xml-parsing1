@@ -275,7 +275,7 @@ function checkFieldForNumber(field) {
     //    return;
     }
 
-   // alert(in);
+   alert(index);
     field.selectionStart = index;
             field.selectionEnd = index-1;
                // field.setAttribute("value", field.value);

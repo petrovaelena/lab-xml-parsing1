@@ -263,8 +263,12 @@ function isValueValid(value, type) {
     }
 }
 
+
+ 
+
 function checkFieldForNumber(field) { 
-    
+    var index;
+    index = field.selectionStart;
         
    // if (field.getAttribute('value').length < 2) {
    //    field.setAttribute("value", field.value);
@@ -276,7 +280,7 @@ function checkFieldForNumber(field) {
     if (!regular.test(field.value)) {
         field.value = field.getAttribute('value');
         field.setAttribute("value", field.value);
-        var index = field.selectionStart;
+      
         return;
     }
    

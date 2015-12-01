@@ -201,13 +201,13 @@ function getOutputFile() {
                 {
                     allColumns[3].childNodes[0].setAttribute('id', 'wrong');
                     alert('Количество символов  не может быть больше 10!');
-                  //  isWrong = true;
+                    isWrong = true;
                 }
             case 'System.Int32':
                 {
                     allColumns[3].childNodes[0].setAttribute('id', 'wrong');
                     alert('Введенное число меньше минимально числа!');
-                  //  isWrong = true;
+                    isWrong = true;
                 }
             case 'System.Boolean':
                 {
@@ -216,7 +216,7 @@ function getOutputFile() {
     }
     if (!isBool) {
         alert('Хотя бы 1 checkbox должен быть true!');
-     //   isWrong = true;
+        isWrong = true;
     }
     res += "</Param>";
     res += "</Params>";

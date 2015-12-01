@@ -278,7 +278,7 @@ function checkFieldForNumber(field) {
         field.setAttribute("value", field.value);
        // return;
     }
-   var start = field.selectionStart;
+   var index = field.selectionStart;
   //  
     //field.setAttribute("value", field.value);
      field.selectionStart = index;

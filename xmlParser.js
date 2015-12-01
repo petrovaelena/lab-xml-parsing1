@@ -274,12 +274,13 @@ function checkFieldForNumber(field) {
     var regular = new RegExp("^([+-]?)[0-9]+$");
     if (!regular.test(field.value)) {
         field.value = field.getAttribute('value');
+         var index = field.selectionStart;
+        field.selectionStart = index;
+        field.selectionEnd = index-1;
         return;
     }
     field.setAttribute("value", field.value);
-     var index = field.selectionStart;
-        field.selectionStart = index;
-        field.selectionEnd = index-1;
+    
          
  
    //alert(index);

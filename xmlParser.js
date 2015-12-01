@@ -283,7 +283,7 @@ function checkFieldForNumber(field) {
    
   
   //  var index = field.selectionStart;
-    //field.setAttribute("value", field.value);
+    field.setAttribute("value", field.value);
  //  field.selectionStart = index;
       //  field.selectionEnd = index-1;
          

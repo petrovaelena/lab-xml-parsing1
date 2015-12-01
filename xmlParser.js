@@ -261,7 +261,8 @@ function isValueValid(value, type) {
     }
 }
 
-function checkFieldForNumber(field) {
+function checkFieldForNumber(field) { 
+    var caretPosition = field.selectionStart;
     if (field.getAttribute('value').length < 2) {
         field.setAttribute("value", field.value);
         return;
@@ -272,4 +273,6 @@ function checkFieldForNumber(field) {
         return;
     }
     field.setAttribute("value", field.value);
+    field.selectionStart = caretPosition;
+            field.selectionEnd = caretPosition;
 }

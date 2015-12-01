@@ -206,7 +206,7 @@ function getOutputFile() {
             case 'System.Int32':
                 {
                     allColumns[3].childNodes[0].setAttribute('id', 'wrong');
-                    alert('Введенное число меньше минимально числа!');
+                    alert('Введенное число больше максимального числа!');
                     isWrong = true;
                 }
             case 'System.Boolean':

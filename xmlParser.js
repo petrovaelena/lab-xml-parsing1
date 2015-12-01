@@ -270,17 +270,17 @@ function checkFieldForNumber(field) {
       return;
     }
     //var regular = new RegExp("(^([+-]?)([1-9]+?)[0-9]*$)|^0$");
-    var index = field.selectionStart;
+   
     var regular = new RegExp("^([+-]?)[0-9]+$");
     if (!regular.test(field.value)) {
         field.value = field.getAttribute('value');
         return;
     }
-    
-   
-     field.selectionStart = index;
+    field.setAttribute("value", field.value);
+     var index = field.selectionStart;
+        field.selectionStart = index;
         field.selectionEnd = index-1;
-         field.setAttribute("value", field.value);
+         
  
    //alert(index);
   

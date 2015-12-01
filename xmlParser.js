@@ -267,7 +267,6 @@ function checkFieldForNumber(field) {
         
    // if (field.getAttribute('value').length < 2) {
    //    field.setAttribute("value", field.value);
-      
   //   return;
   //  }
     //var regular = new RegExp("(^([+-]?)([1-9]+?)[0-9]*$)|^0$");
@@ -277,10 +276,11 @@ function checkFieldForNumber(field) {
     if (!regular.test(field.value)) {
         field.value = field.getAttribute('value');
        // var index = field.selectionStart;
-     //   return;
+        field.selectionStart = index;
+       field.selectionEnd = index-1;
+        
     }
-    field.selectionStart = index;
-field.selectionEnd = index-1;
+   return;
   //  var index = field.selectionStart;
     //field.setAttribute("value", field.value);
  //  field.selectionStart = index;

@@ -262,19 +262,19 @@ function isValueValid(value, type) {
 }
 
 function checkFieldForNumber(field) { 
-   // var in = field.selectionStart;
-    if (field.getAttribute('value').length < 2) {
-        field.setAttribute("value", field.value);
-       return;
-    }
+    var index = field.selectionStart;
+//    if (field.getAttribute('value').length < 2) {
+    //    field.setAttribute("value", field.value);
+    //   return;
+   // }
     var regular = new RegExp("(^([+-]?)([1-9]+?)[0-9]*$)|^0$");
     if (!regular.test(field.value)) {
         field.value = field.getAttribute('value');
-        return;
+    //    return;
     }
 
    // alert(in);
-   // field.selectionStart = in;
-    //        field.selectionEnd = in;
-                field.setAttribute("value", field.value);
+    field.selectionStart = index;
+            field.selectionEnd = index-1;
+               // field.setAttribute("value", field.value);
 }

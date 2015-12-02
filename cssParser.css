@@ -19,7 +19,7 @@ td
   font-family: Arial;
   color: black;
   font-size: 15px;
- 
+ border-color: red;
    background: none;
    font-size: 13px;
    font-weight: 400;
@@ -32,7 +32,7 @@ td
   font-family: Arial;
   color: black;
   font-size: 15px;
-  
+  border-color: green;
   background: none;
    font-size: 13px;
    font-weight: 400;

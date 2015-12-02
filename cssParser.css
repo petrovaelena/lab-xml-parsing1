@@ -1,50 +1,61 @@
-#title{
-     color: black;
-     margin: 15px;
-     font:normal normal 400 12pt normal Courier New, sans-serif;
-     background:silver;
-}
-td 
+#addButton:hover 
 {
-     word-wrap: break-word; 
-}
-#parse:hover{
-  color:blue;
+    color:blue;
     font-size: 10pt;
 	cursor: pointer;
 }
 
-
-#wrong {
-  font-family: Arial;
-  color: black;
-  font-size: 15px;
- border-color: red;
-   background: none;
-   font-size: 13px;
-   font-weight: 400;
-  padding: 3px 8px 3px 8px;
-  text-decoration: none;
-}
-
-
-#complete {
-  font-family: Arial;
-  color: black;
-  font-size: 15px;
-  border-color: green;
-  background: none;
-   font-size: 13px;
-   font-weight: 400;
-  padding: 3px 8px 3px 8px;
-  text-decoration: none;
-}
-
-#addButton:hover {
- color:blue;
+#downloadButton:hover
+{
+    color:blue;
     font-size: 10pt;
 	cursor: pointer;
 }
+
+#saveButton:hover
+{
+    color:MediumBlue;
+    font-size: 10pt;
+	cursor: pointer;
+}
+
+#canselButton:hover
+{
+    color: blue;
+    font-size: 10pt;
+	cursor: pointer;
+}
+
+#DeleteButton 
+{
+    font-size: 11pt;
+	font-family:arial, monospace;
+    padding:3px 11px; 
+    border:9 none; 
+    -webkit-border-radius: 5px;
+    border-radius: 100px;
+}
+
+#DeleteButton:hover 
+{
+    font-size: 11pt;
+    color:red;
+	cursor: pointer;
+}
+
+
+body
+{
+    background: url(blue3.jpg);
+	color: white;
+
+}
+
+input#text
+{
+    background: #a58769;
+}
+
 
 input[type=button]  
 {
@@ -57,22 +68,11 @@ input[type=button]
   background-color: silver;
 }
 
-#download:hover{
-  color:blue;
-    font-size: 10pt;
-	cursor: pointer;
+a
+{
+    font-weight: bold;
+    font-style:italic;
+    cursor: pointer;
+    font-size: 11pt;
+	color: blue;
 }
-
-body {
-    margin: 0px 0px 0px 0px;
-	background: url(blue3.jpg);
-	color: white;
-}
-
-div {
-		background: silver;
-		padding: 10px;
-		margin: auto auto; 
-		opacity: 0.8; 
-		width: 62%;
-	}

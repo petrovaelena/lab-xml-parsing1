@@ -11,8 +11,8 @@ function validator(input,type) {
         input.setAttribute('id', 'complete');
 
     if (type === 'System.Int32') {
-      // var Reg = new RegExp("(^([+-]?)([1-9]+?)[0-9]*)|^0$");
-       var Reg = new RegExp("^([+-]?)[0-9]+$");
+       var Reg = new RegExp("(^([+-]?)([1-9]+?)[0-9]*)|^0$");
+      // var Reg = new RegExp("^([+-]?)[0-9]+$");
         if (Reg.test(value)) {
             input.setAttribute('id', 'complete')
             return true;
@@ -265,12 +265,12 @@ function isValueValid(value, type) {
 
 function checkFieldForNumber(field) { 
   //  var index;
-    if (field.getAttribute('value').length < 2) {
+    if (field.getAttribute('value').length < 1) {
       field.setAttribute("value", field.value);
      return;
     }
-    //var regular = new RegExp("(^([+-]?)([1-9]+?)[0-9]*$)|^0$");
-    var regular = new RegExp("^([+-]?)[0-9]+$");
+    var regular = new RegExp("(^([+-]?)([1-9]+?)[0-9]*$)|^0$");
+   // var regular = new RegExp("^([+-]?)[0-9]+$");
     if (!regular.test(field.value)) {
         field.value = field.getAttribute('value');
         index = field.selectionStart;

@@ -31,7 +31,7 @@ function readXML()
 			output += '<td>' + "<input type=\"text\" value=\"" + nameField + "\" />" + '</td>';
 			output += '<td>' + "<input type=\"text\" value=\"" + descriptionField + "\" />" + '</td>';
 			output += '<td>' + typeField + '</td>';
-			output += "<td><input type=\"button\" value=\"x\" onclick=\"deleteRow(this)\"></td>";
+			output += "<td><input type=\"button\" value=\"Delete\" onclick=\"deleteRow(this)\"></td>";
 			output += '</tr>';
 		}
 		document.getElementById( 'table_id' ).innerHTML = output;
@@ -171,7 +171,7 @@ function addRow()
 	var newCell = newRow.insertCell( cnstCNT_CELL );
 	newCell.innerHTML= " <select id=\"SelType\" onchange=\"onChangeSelect( this )\" ><option>String</option><option>Int</option><option>Boolean</option></select>"
 	newCell = newRow.insertCell( cnstCNT_CELL+1 );
-	newCell.innerHTML= " <input type=\"button\" value=\"x\" onclick=\"deleteRow(this)\">"
+	newCell.innerHTML= " <input type=\"button\" value=\"Delete\" onclick=\"deleteRow(this)\">"
 }
 
 function deleteRow(r)

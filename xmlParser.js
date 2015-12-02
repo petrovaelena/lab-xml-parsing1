@@ -9,7 +9,7 @@ function readXML()
 	var add_button = document.getElementById("add_button");
 	add_button.style.display = "inline";
 	var xml = new XMLHttpRequest();
-	xml.open( 'GET', 'input.xml' , false );
+	xml.open( 'GET', 'Input.xml' , false );
 	xml.send();
 	var xmlData = xml.responseXML;
 	if( xmlData )

@@ -15,14 +15,14 @@
     <Value>31fg1е53еb</Value>
   </Parameter>
   <Parameter>
-    <Id>BillingCode</Id>
+    <Id>B</Id>
     <Name>Billing Code</Name>
     <Description>This is blah-blah-blah</Description>
     <Type>System.String</Type>
     <Value>31fg1е53еb</Value>
   </Parameter>
   <Parameter>
-    <Id>AbandonmentRate</Id>
+    <Id>Abandon</Id>
     <Name>Nuisance call abandonment rate</Name>
     <Description>This is blah-blah-blah </Description>
     <Type>System.Int32</Type>

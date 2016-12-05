@@ -53,8 +53,8 @@
     <Id>A100792</Id>
     <Name>Ролик Дарья Сергеевна</Name>
     <Description>Учетная политика компании</Description>
-    <Type>System.Boolean</Type>
-    <Value>False</Value>
+    <Type>System.String</Type>
+    <Value>Пропуск аттестации</Value>
   </Parameter>
   <Parameter>
     <Id>A100793</Id>
@@ -95,15 +95,15 @@
     <Id>A100798</Id>
     <Name>Ващенко Мария Юрьевна</Name>
     <Description>Расчеты по оплате труда</Description>
-    <Type>System.Boolean</Type>
-    <Value>True</Value>
+    <Type>System.String</Type>
+    <Value>Пропуск аттестации</Value>
   </Parameter>
   <Parameter>
     <Id>A100799</Id>
     <Name>Ващенко Юрий Юрьевич</Name>
     <Description>Расчеты по оплате труда</Description>
-    <Type>System.Boolean</Type>
-    <Value>True</Value>   
+    <Type>System.String</Type>
+    <Value>Пропуск аттестации</Value>   
   </Parameter>
   <Parameter>
     <Id>A100800</Id>

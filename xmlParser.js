@@ -24,7 +24,7 @@ function readXML()
 			var value = params[i].getElementsByTagName( "Value" )[0].textContent;
 			var typeField = getFieldByType( type, value );
 			var idField = params[i].getElementsByTagName( "Id" )[0].textContent;
-			var nameField = params[i].getElementsByTagName( "Name" )[0].textContent;
+			var nameField = params[i].getElementsByTagName( "ФИО" )[0].textContent;
 			var descriptionField = params[i].getElementsByTagName( "Description" )[0].textContent;
 			output += '<tr>';
 			output += '<td>' + "<input type=\"text\" value=\"" + idField + "\" />" + '</td>';

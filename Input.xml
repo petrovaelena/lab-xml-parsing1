@@ -89,7 +89,7 @@
     <Name>Абрамова Анна Андреевна</Name>
     <Description>Расчеты по оплате труда</Description>
     <Type>System.Boolean</Type>
-    <Value>True</Value>
+    <Value>False</Value>
   </Parameter>
    <Parameter>
     <Id>A100798</Id>
@@ -117,35 +117,35 @@
     <Name>Сидоров Иван Юрьевич</Name>
     <Description>Расчеты по оплате труда</Description>
     <Type>System.Boolean</Type>
-    <Value>True</Value>
+    <Value>False</Value>
   </Parameter>
   <Parameter>
     <Id>A100802</Id>
     <Name>Петрова Ирина Сергеевна</Name>
     <Description>Учетная политика компании</Description>
     <Type>System.Boolean</Type>
-    <Value>True</Value>
+    <Value>False</Value>
   </Parameter>
   <Parameter>
     <Id>A100803</Id>
     <Name>Иванов Максим Юрьевич</Name>
     <Description>Учетная политика компании</Description>
     <Type>System.Boolean</Type>
-    <Value>True</Value>
+    <Value>False</Value>
   </Parameter>
   <Parameter>
     <Id>A100804</Id>
     <Name>Савелов Олег Иванович</Name>
     <Description>Учетная политика компании</Description>
     <Type>System.Boolean</Type>
-    <Value>True</Value>
+    <Value>False</Value>
   </Parameter>
   <Parameter>
     <Id>A100805</Id>
     <Name>Сидорова Арина Юрьевна</Name>
     <Description>Учетная политика компании</Description>
     <Type>System.Boolean</Type>
-    <Value>True</Value>
+    <Value>False</Value>
   </Parameter>
   
 </Parameters>

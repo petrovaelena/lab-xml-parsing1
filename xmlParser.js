@@ -17,7 +17,7 @@ function readXML()
 		xmlData = ( new DOMParser() ).parseFromString( xml.responseText, 'text/xml' );
 		var params = xmlData.getElementsByTagName( "Parameter" );
 		console.log(params);
-		var output = '<tr><td>Id</td><td>Name</td><td>Description</td><td>Type</td></tr>';
+		var output = '<tr><td>Ид</td><td>Name</td><td>Description</td><td>Type</td></tr>';
 		for( var i = 0; i < params.length; i++ )
 		{
 			var type = identifyType( params[i].getElementsByTagName( "Type" )[0].textContent );

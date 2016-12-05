@@ -37,14 +37,14 @@
   </Parameter>
   <Parameter>
     <Id>A100790</Id>
-    <Name>Щебет Дмитрий Дмитриевич</Name>
+    <Name>Щебет Дмитрий Алексеевич</Name>
     <Description>Расчеты по оплате труда</Description>
     <Type>System.Boolean</Type>
     <Value>True</Value>
   </Parameter>
   <Parameter>
     <Id>A100791</Id>
-    <Name>Кононова Ирина Алексеевна</Name>
+    <Name>Конова Ирина Алексеевна</Name>
     <Description>Аудит кассовых операций</Description>
     <Type>System.Boolean</Type>
     <Value>True</Value>

@@ -31,7 +31,7 @@ function readXML()
 			output += '<td>' + "<input type=\"text\" value=\"" + nameField + "\" />" + '</td>';
 			output += '<td>' + "<input type=\"text\" value=\"" + descriptionField + "\" />" + '</td>';
 			output += '<td>' + typeField + '</td>';
-			output += "<td><input type=\"button\" value=\"Delete\" onclick=\"deleteRow(this)\"></td>";
+			output += "<td><input type=\"button\" value=\"Удалить\" onclick=\"deleteRow(this)\"></td>";
 			output += '</tr>';
 		}
 		document.getElementById( 'table_id' ).innerHTML = output;

@@ -2,7 +2,7 @@
 <Parameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Parameter>
     <Id>A100786</Id>
-    <Name>Petrova Elena Sergeevna</Name>
+    <Name>Петрова Elena Sergeevna</Name>
     <Description>Supervision bancaire</Description>
     <Type>System.Boolean</Type>
     <Value>True</Value>
@@ -30,7 +30,7 @@
   </Parameter>
   <Parameter>
     <Id>A100789</Id>
-    <Name>Alexey Topol Ivanovich</Name>
+    <Name>Topol Alexey Ivanovich</Name>
     <Description>Computer network</Description>
     <Type>System.Boolean</Type>
     <Value>False</Value>

@@ -3,7 +3,7 @@
   <Parameter>
     <Id>A100786</Id>
     <Name>Петрова Елена Сергеевна</Name>
-    <Description>Учетная политика предприятия</Description>
+    <Description>Учетная политика компании</Description>
     <Type>System.Boolean</Type>
     <Value>True</Value>
   </Parameter>
@@ -16,7 +16,7 @@
   </Parameter>
   <Parameter>
     <Id>A100787</Id>
-    <Name>Zaycev Ivan Ivanovich</Name>
+    <Name>Зайцев Михаил Иванович</Name>
     <Description>Аудит кассовых операций</Description>
     <Type>System.Boolean</Type>
     <Value>True</Value>
@@ -24,35 +24,35 @@
   <Parameter>
     <Id>A100788</Id>
     <Name>Савелова Анна Алексеевна</Name>
-    <Description>Аудит сохранности и учета основных средств</Description>
+    <Description>Аудит основных средств</Description>
     <Type>System.Boolean</Type>
     <Value>True</Value>
   </Parameter>
   <Parameter>
     <Id>A100789</Id>
-    <Name>Тополь Алексей Иванович</Name>
-    <Description>Оценка системы внутреннего контроля</Description>
+    <Name>Тополь Алексей Сергеевич</Name>
+    <Description>Оценка системы компании</Description>
     <Type>System.Boolean</Type>
     <Value>False</Value>
   </Parameter>
   <Parameter>
     <Id>A100790</Id>
-    <Name>Nuisance call abandonment rate</Name>
-    <Description>This is blah-blah-blah </Description>
+    <Name>Щебет Дмитрий Дмитриевич</Name>
+    <Description>Расчеты по оплате труда</Description>
     <Type>System.Boolean</Type>
     <Value>True</Value>
   </Parameter>
   <Parameter>
     <Id>A100791</Id>
-    <Name>Nuisance call abandonment rate</Name>
-    <Description>This is blah-blah-blah </Description>
+    <Name>Кононова Ирина Алексеевна</Name>
+    <Description>Аудит кассовых операций</Description>
     <Type>System.Boolean</Type>
     <Value>True</Value>
   </Parameter>
   <Parameter>
     <Id>A100792</Id>
-    <Name>Nuisance call abandonment rate</Name>
-    <Description>This is blah-blah-blah </Description>
+    <Name>Ролик Дарья Сергеевна</Name>
+    <Description>Учетная политика компании</Description>
     <Type>System.Boolean</Type>
     <Value>False</Value>
   </Parameter>

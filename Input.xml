@@ -65,9 +65,30 @@
   </Parameter>
   <Parameter>
     <Id>A100794</Id>
-    <Name>Тутина Дарья Сергеевна</Name>
+    <Name>Тутина Дарья Андреевна</Name>
     <Description>Оценка системы компании</Description>
     <Type>System.Boolean</Type>
     <Value>False</Value>
+  </Parameter>
+  <Parameter>
+    <Id>A100795</Id>
+    <Name>Шерстук Ян Сергеевич</Name>
+    <Description>Расчеты по оплате труда</Description>
+    <Type>System.Boolean</Type>
+    <Value>True</Value>
+  </Parameter>
+  <Parameter>
+    <Id>A100796</Id>
+    <Name>Ишунина Алина Сергеевна</Name>
+    <Description>Расчеты по оплате труда</Description>
+    <Type>System.Boolean</Type>
+    <Value>True</Value>
+  </Parameter>
+  <Parameter>
+    <Id>A100797</Id>
+    <Name>Абрамова Марина Андреевна</Name>
+    <Description>Расчеты по оплате труда</Description>
+    <Type>System.Boolean</Type>
+    <Value>True</Value>
   </Parameter>
 </Parameters>

@@ -86,7 +86,35 @@
   </Parameter>
   <Parameter>
     <Id>A100797</Id>
-    <Name>Абрамова Марина Андреевна</Name>
+    <Name>Абрамова Анна Андреевна</Name>
+    <Description>Расчеты по оплате труда</Description>
+    <Type>System.Boolean</Type>
+    <Value>True</Value>
+  </Parameter>
+   <Parameter>
+    <Id>A100798</Id>
+    <Name>Ващенко Мария Юрьевна</Name>
+    <Description>Расчеты по оплате труда</Description>
+    <Type>System.Boolean</Type>
+    <Value>True</Value>
+  </Parameter>
+  <Parameter>
+    <Id>A100799</Id>
+    <Name>Ващенко Юрий Юрьевич</Name>
+    <Description>Расчеты по оплате труда</Description>
+    <Type>System.Boolean</Type>
+    <Value>True</Value>   
+  </Parameter>
+  <Parameter>
+    <Id>A100800</Id>
+    <Name>Петров Иван Иванович</Name>
+    <Description>Расчеты по оплате труда</Description>
+    <Type>System.Boolean</Type>
+    <Value>True</Value>
+  </Parameter>
+  <Parameter>
+    <Id>A100801</Id>
+    <Name>Сидоров Иван Юрьевич</Name>
     <Description>Расчеты по оплате труда</Description>
     <Type>System.Boolean</Type>
     <Value>True</Value>

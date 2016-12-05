@@ -2,36 +2,36 @@
 <Parameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Parameter>
     <Id>A100786</Id>
-    <Name>Петрова Elena Sergeevna</Name>
-    <Description>Supervision bancaire</Description>
+    <Name>Петрова Елена Сергеевна</Name>
+    <Description>Учетная политика предприятия</Description>
     <Type>System.Boolean</Type>
     <Value>True</Value>
   </Parameter>
   <Parameter>
     <Id>A100787</Id>
-    <Name>Ivanov Vladislav Ivanovich</Name>
-    <Description>Accountancy and analysis</Description>
+    <Name>Иванов Олег Иванович</Name>
+    <Description>Аудит денежных средств</Description>
     <Type>System.Boolean</Type>
     <Value>True</Value>
   </Parameter>
   <Parameter>
     <Id>A100787</Id>
     <Name>Zaycev Ivan Ivanovich</Name>
-    <Description>Computer network</Description>
+    <Description>Аудит кассовых операций</Description>
     <Type>System.Boolean</Type>
     <Value>True</Value>
   </Parameter>
   <Parameter>
     <Id>A100788</Id>
-    <Name>Savelova Anna Sergeevna</Name>
-    <Description>Computer network</Description>
+    <Name>Савелова Анна Алексеевна</Name>
+    <Description>Аудит сохранности и учета основных средств</Description>
     <Type>System.Boolean</Type>
     <Value>True</Value>
   </Parameter>
   <Parameter>
     <Id>A100789</Id>
-    <Name>Topol Alexey Ivanovich</Name>
-    <Description>Computer network</Description>
+    <Name>Тополь Алексей Иванович</Name>
+    <Description>Оценка системы внутреннего контроля</Description>
     <Type>System.Boolean</Type>
     <Value>False</Value>
   </Parameter>

@@ -171,7 +171,7 @@ function addRow()
 	var newCell = newRow.insertCell( cnstCNT_CELL );
 	newCell.innerHTML= " <select id=\"SelType\" onchange=\"onChangeSelect( this )\" ><option>String</option><option>Int</option><option>Boolean</option></select>"
 	newCell = newRow.insertCell( cnstCNT_CELL+1 );
-	newCell.innerHTML= " <input type=\"button\" value=\"Delete\" onclick=\"deleteRow(this)\">"
+	newCell.innerHTML= " <input type=\"button\" value=\"Удалить\" onclick=\"deleteRow(this)\">"
 }
 
 function deleteRow(r)

@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0"?>
 <Parameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Parameter>
-    <Id>Billing Code</Id>
-    <Name>Petrova</Name>
-    <Description>This is blah-blah-blah</Description>
-    <Type>System.String</Type>
-    <Value>31fg1е53еb</Value>
+    <Id>100786</Id>
+    <Name>Petrova Elena Sergeevna</Name>
+    <Description>Supervision bancaire</Description>
+    <Type>System.Boolean</Type>
+    <Value>True</Value>
   </Parameter>
   <Parameter>
     <Id>BillingCode</Id>
     <Name>Petrova Elena</Name>
     <Description>This is blah-blah-blah</Description>
-    <Type>System.String</Type>
-    <Value>31fg1е53еb</Value>
+    <Type>System.Boolean</Type>
+    <Value>True</Value>
   </Parameter>
   <Parameter>
     <Id>Blala</Id>

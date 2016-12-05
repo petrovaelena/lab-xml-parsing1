@@ -2,7 +2,7 @@
 <Parameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Parameter>
     <Id>Billing Code</Id>
-    <Name>Петрова Елена</Name>
+    <Name>Petrova</Name>
     <Description>This is blah-blah-blah</Description>
     <Type>System.String</Type>
     <Value>31fg1е53еb</Value>

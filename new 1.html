@@ -17,5 +17,16 @@
 <input type="button" value=" Скачать новый файл " onclick="download( 'output.xml', 'text/plain')"></p> 
 <a href="" class="hidden" id="download_link">click here to download your file</a> </center> 
 <center><table id="table_id" onchange ="onChangeTable()"></table></center> 
+  
+  <script> $(window).scroll(function() 
+{ if ($(this).scrollTop()>1000) $('#scrollable')
+.css({'position':'fixed','top':'60px'}); 
+else $('#scrollable').css({'top':'1000px','position':'static'}); }); </script> 
+<div id='scrollable' style="width:280px";><div align="center" 
+target="_blank"><a href="//blogorazvitie.ru" title="Текст при наведении">
+<img src="//blogorazvitie.ru/banner/banner-vidget.jpg"/></div></div>
+  
+  
+  
 </body> 
 </html>

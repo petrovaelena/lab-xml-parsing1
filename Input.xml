@@ -37,7 +37,7 @@
   </Parameter>
   <Parameter>
     <Id>A100790</Id>
-    <Name>Щебет Дмитрий Алексеевич</Name>
+    <Name>Щебет Яков Алексеевич</Name>
     <Description>Расчеты по оплате труда</Description>
     <Type>System.Boolean</Type>
     <Value>True</Value>
@@ -53,6 +53,20 @@
     <Id>A100792</Id>
     <Name>Ролик Дарья Сергеевна</Name>
     <Description>Учетная политика компании</Description>
+    <Type>System.Boolean</Type>
+    <Value>False</Value>
+  </Parameter>
+  <Parameter>
+    <Id>A100793</Id>
+    <Name>Зайцева Ольга Сергеевна</Name>
+    <Description>Учетная политика компании</Description>
+    <Type>System.Boolean</Type>
+    <Value>False</Value>
+  </Parameter>
+  <Parameter>
+    <Id>A100794</Id>
+    <Name>Тутина Дарья Сергеевна</Name>
+    <Description>Оценка системы компании</Description>
     <Type>System.Boolean</Type>
     <Value>False</Value>
   </Parameter>
